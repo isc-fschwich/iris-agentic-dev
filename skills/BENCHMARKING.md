@@ -31,6 +31,10 @@ xattr -d com.apple.quarantine /usr/local/bin/iris-agentic-dev 2>/dev/null
 # Linux x86_64
 curl -fsSL https://github.com/intersystems-community/iris-agentic-dev/releases/latest/download/iris-agentic-dev-linux-x86_64 \
   -o /usr/local/bin/iris-agentic-dev && chmod +x /usr/local/bin/iris-agentic-dev
+
+# Linux arm64
+curl -fsSL https://github.com/intersystems-community/iris-agentic-dev/releases/latest/download/iris-agentic-dev-linux-aarch64 \
+  -o /usr/local/bin/iris-agentic-dev && chmod +x /usr/local/bin/iris-agentic-dev
 ```
 
 **Windows**: download `iris-agentic-dev-windows-x86_64.exe` from the
